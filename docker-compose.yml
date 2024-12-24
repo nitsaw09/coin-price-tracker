@@ -11,6 +11,9 @@ services:
     env_file: .env
     environment:
       - DB_HOST=db
+      - DB_USER=postgres
+      - DB_PASS=postgres
+      - DB_NAME=coin_tracker
     depends_on:
       - db
 
