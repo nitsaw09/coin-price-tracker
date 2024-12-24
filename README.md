@@ -5,7 +5,7 @@ Price tracker Api.
 ## Project setup
 
 ```bash
-1. create a .env file and copy the environment variables from .en.example file 
+1. create a .env file in root of project folder and copy the environment variables from .en.example file 
 2. npm install
 ```
 
@@ -24,6 +24,6 @@ $ npm run start:prod
 
 ## Run via Docker
 ```bash
-1. create a .env file and copy the environment variables from .en.example file 
+1. create a .env file in root of project folder and copy the environment variables from .en.example file 
 2. docker-compose up
 ```
